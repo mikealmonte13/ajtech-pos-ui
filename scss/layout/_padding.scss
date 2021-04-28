@@ -1,0 +1,25 @@
+// Padding
+
+@each $padding in $margins {
+  .pt-#{nth($padding, 1)} {
+    padding-top: nth($padding, 2);
+  }
+}
+
+@each $padding in $margins {
+  .pr-#{nth($padding, 1)} {
+    padding-right: nth($padding, 2);
+  }
+}
+
+@each $padding in $margins {
+  .pb-#{nth($padding, 1)} {
+    padding-bottom: nth($padding, 2);
+  }
+}
+
+@each $padding in $margins {
+  .pr-#{nth($padding, 1)} {
+    padding-left: nth($padding, 2);
+  }
+}

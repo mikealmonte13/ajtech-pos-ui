@@ -1,0 +1,50 @@
+// Variables
+
+// Color System
+$white: #ffffff;
+$light-gray: #eeeeee;
+$gray: #808080;
+$black: #000000;
+$blue: #00b4d8;
+
+$body-color: $black;
+$body-bg-color: $white;
+$body-selection-bg-color: rgba($blue, 0.25);
+
+$transparent-bg-color: rgba(0, 0, 0, 0);
+
+// Typography
+$body-font-size: 1rem;
+
+// Headings
+$headings-font-sizes: (
+  h1: $body-font-size * 2.5,
+  h2: $body-font-size * 2,
+  h3: $body-font-size * 1.75,
+  h4: $body-font-size * 1.5,
+  h5: $body-font-size * 1.25,
+  h6: $body-font-size,
+);
+
+// Media Breakpoints
+$media-breakpoints: (
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+);
+
+// Margins
+$margins: (
+  "1": 0.25rem,
+  "2": 0.5rem,
+  "3": 1rem,
+  "4": 1.5rem,
+  "5": 3rem,
+);
+
+$paddings: map-values($margins);
+
+// Responsive Row
+$row-margin-x: -1rem;
+$col-padding-x: 1rem;

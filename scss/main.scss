@@ -1,0 +1,17 @@
+@import url("https://rsms.me/inter/inter.css");
+
+@import "abstract/variables";
+@import "base/reboot";
+@import "layout/margin";
+@import "layout/padding";
+@import "layout/row";
+@import "pages/menu";
+@import "pages/foods";
+
+body {
+  font-family: "Inter var";
+}
+
+::selection {
+  background-color: $body-selection-bg-color;
+}
